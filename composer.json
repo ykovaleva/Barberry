@@ -9,7 +9,13 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "barberry/interfaces": "dev-master"
+        "barberry/interfaces": "dev-directions"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ykovaleva/barberry-interfaces"
+        }
+    ],
     "minimum-stability": "dev"
 }
